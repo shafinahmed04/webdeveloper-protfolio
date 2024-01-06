@@ -6,6 +6,7 @@ body{
 .text-primary{
     color: #fd6e0a;
 }
+
 .btn-primery{
     border-radius: 5px;
     background-color: #fd6e0a;
@@ -16,18 +17,21 @@ body{
     padding: 15px 35px;
 }
 /* nav related styles*/
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-nav{
-    display: flex;
-}
 .nav-title{
-    color: #181818;
+    color: black;
     font-size: 45px;
     font-weight: 800;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    margin: 0 200px;
+}
+nav{
+    display: flex;
+}
+
 nav > ul{
     display: flex;
     align-items: center;
@@ -39,4 +43,18 @@ nav li {
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+
+
 }
